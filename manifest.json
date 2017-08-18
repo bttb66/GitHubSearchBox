@@ -15,6 +15,16 @@
             "scripts" : ["bg.js"]
         }
     },
+    "commands": {
+        "_execute_browser_action": {
+            "suggested_key": {
+                "windows": "Ctrl+G",
+                "mac": "Command+G",
+                "chromeos": "Ctrl+G",
+                "linux": "Ctrl+G"
+            }
+        }
+    },
     "permissions": [
         "webRequest",
         "tabs"
